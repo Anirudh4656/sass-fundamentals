@@ -1,0 +1,19 @@
+
+@import "_colors";
+
+body {
+    margin:0;
+    // background-color: nth($color1, 2 );
+    }
+//nesting i have to apply css in a and h2 tag of product card 
+.productCard {
+    max-width: 600px;
+    background-color: red;
+    >a{
+        color:blue;
+    }
+    
+    >h2{
+        color:black;
+    }
+}
